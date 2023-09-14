@@ -13,14 +13,22 @@
 5a. Aggiungo l'LI all'UL
 */
 
-//1.
+//Passaggio 1.
 const listaSpesa = ['pane', 'pizza', 'burro', 'sugo', 'kiwi',];
-//2.
+
+//Passaggio 2a.
+const outputSpesa = document.getElementById('output-spesa');
+console.log(outputSpesa);
+
+//Passaggio 2.
 let contatore = 0;
-//3.
+
+//Passaggio 3.
 while(contatore < listaSpesa.length){
-  //4.
+
+  //Passaggio 4.
   console.log(listaSpesa[contatore]);
-  //5.
+  
+  //Passaggio 5.
   contatore++;
 }
