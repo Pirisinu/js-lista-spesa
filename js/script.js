@@ -19,6 +19,8 @@ const listaSpesa = ['pane', 'pizza', 'burro', 'sugo', 'kiwi',];
 let contatore = 0;
 //3.
 while(contatore < listaSpesa.length){
-  console.log(listaSpesa[contatore])
+  //4.
+  console.log(listaSpesa[contatore]);
+  //5.
   contatore++;
 }
