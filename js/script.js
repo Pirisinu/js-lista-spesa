@@ -25,10 +25,15 @@ let contatore = 0;
 
 //Passaggio 3.
 while(contatore < listaSpesa.length){
-
+  //3a.
+  let elementoSpesa = document.createElement('li');
+  //4a.
+  elementoSpesa.textContent = listaSpesa[contatore];
+  //5a.
+  outputSpesa.appendChild(elementoSpesa);
   //Passaggio 4.
   console.log(listaSpesa[contatore]);
-  
+
   //Passaggio 5.
   contatore++;
 }
